@@ -1,0 +1,39 @@
+
+body {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5c);
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+}
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+.logo {
+    width: 200px;
+    margin-bottom: 1rem;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.tagline {
+    font-style: italic;
+    color: #ffcc00;
+    margin-bottom: 2rem;
+}
+.about, .contact {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+}
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
